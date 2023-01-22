@@ -24,3 +24,9 @@
     z-index:2;
     font-size: 5em;
 }
+
+@media (max-width:500px) {
+    .video-text p{
+        text-align: center;
+    }
+}
