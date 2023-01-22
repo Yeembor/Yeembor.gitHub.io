@@ -1,0 +1,26 @@
+.bg-video{
+    width:100%;
+    height: 70vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bg-video video{
+    width:100%;
+    height: 70vh;
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    z-index:1;
+    border-bottom:solid 6px #4c0468be;
+}
+
+.video-text {
+    color: rgba(0, 255, 255, 0.603);
+    z-index:2;
+    font-size: 5em;
+}
