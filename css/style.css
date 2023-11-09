@@ -2,3 +2,9 @@ body{
     margin: 0;
     display: block;
 }
+
+.header{
+    background-color: red;
+    color: #ffff;
+    padding: auto;
+}
